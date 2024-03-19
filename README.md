@@ -24,6 +24,14 @@ The code allows for generating offline datasets (as used for the original paper)
 as well as using D4RL datasets and target policies, as used for the benchmarking
 paper `Benchmarks for Deep Off-Policy Evaluation' by Fu, et al.
 
+## Installation
+d3rlpy can be installed by cloning the repository as follows:
+```
+git clone https://github.com/xxxxxa-hub/policy_eval.git
+cd policy_eval
+pip install -e .
+```
+
 ## Basic Commands
 In this repository, we mainly use Importance Sampling and Model-based method for off-policy evaluation. For Importance Sampling, we need to do behavior cloning on offline dataset. Similarly, we need to fit the dynamics model for Model-based method. For each task, the behavior or dynamics model should be pretrained once and can be used for evaluation for multiple times. The pretraining is done as follows:
 ```
