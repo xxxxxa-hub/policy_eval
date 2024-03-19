@@ -11,7 +11,7 @@ setup(
         "mujoco-py==2.1.2.14",
         "pandas==2.0.3",
         "tqdm==4.66.1",
-        "tensorflow==2.6.0",
+        "tensorflow",
         "tensorflow-addons==0.16.1",
         "tensorflow-probability==0.14.1",
         "typing-extensions==3.7.4.3",
