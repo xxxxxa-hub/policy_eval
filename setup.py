@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "gym==0.23.0",
-        "mujoco-py=2.1.2.14",
+        "mujoco-py==2.1.2.14",
         "tqdm==4.66.1",
         "pandas==2.0.3",
         "numpy==1.21.5",
